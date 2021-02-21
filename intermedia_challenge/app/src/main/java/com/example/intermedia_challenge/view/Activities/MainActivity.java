@@ -1,4 +1,4 @@
-package com.example.intermedia_challenge.view;
+package com.example.intermedia_challenge.view.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.intermedia_challenge.R;
+import com.example.intermedia_challenge.view.Fragments.CharactersFragment;
+import com.example.intermedia_challenge.view.Fragments.EventsFragment;
+import com.example.intermedia_challenge.view.Fragments.InformationFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

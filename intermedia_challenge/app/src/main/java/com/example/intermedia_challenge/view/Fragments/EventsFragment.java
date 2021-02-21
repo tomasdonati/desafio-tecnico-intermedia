@@ -1,4 +1,4 @@
-package com.example.intermedia_challenge.view;
+package com.example.intermedia_challenge.view.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,14 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.intermedia_challenge.R;
 
-public class CharactersFragment extends Fragment {
+public class EventsFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_characters, container, false);
-
-
+        View view = inflater.inflate(R.layout.fragment_events, container, false);
 
 
         return view;
